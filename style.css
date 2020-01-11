@@ -1,0 +1,357 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    max-width: 1440px;
+}
+
+*,
+*:after
+*:before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(to right, #000 461px, #FFF 461px);
+}
+
+/*HEADER======================
+============================*/
+
+.header {
+    max-width: 1440px;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 461px;
+    height: 100%;
+}
+
+.header__title {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.07em;
+    color: #fff;
+    padding-left: 52px;
+}
+
+.header__lang {
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    padding-right: 44px;
+}
+
+.header__lang:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    border: 7px solid transparent;
+    border-top: 5.5px solid #FFF;
+}
+
+.header__lang:after {
+    content: '';
+    position: absolute;
+    left: 32px;
+    top: 12px;
+    border: 5px solid transparent;
+    border-top: 3.5px solid #000;
+}
+
+.header__burger {
+    width: 92px;
+    height: 92px;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__burger_item {
+    display: block;
+    background: #000;
+    height: 3.48px;
+    width: 34.7px;
+    position: relative;
+}
+
+.header__burger_item:after {
+    content: '';
+    position: absolute;
+    top: 9.44px;
+    background: #000;
+    height: 4.48px;
+    width: 34.7px;
+}
+
+/*CONTENT======================
+============================*/
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    height: 562px;
+    margin-bottom: 85px;
+}
+
+.first__img {
+    margin-right: 54px;
+    width: 50%;
+    width: 549px;
+}
+
+.content-wrap {
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+
+.first__title {
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 82px;
+    margin-bottom: 26px;
+    padding-top: 77px;
+}
+
+.first__title_link {
+    display: none;
+}
+
+.first__description {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 36px;
+}
+
+.first__button {
+    border: 1.5px solid #000;
+    padding: 20px 41px 20px 41px;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 54px;
+    background: #FFF;
+}
+
+.first__link {
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.arrow {
+    content: '';
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    left: 19px;
+    width: 43px;
+    height: 1px;
+    background: #000;
+}
+
+.arrow:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 1px;
+    background-color: #000;
+    transform: rotate(-45deg);
+    transform-origin: 100% 0%;
+}
+
+.arrow:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 1px;
+    background-color: #000;
+    transform: rotate(45deg);
+    transform-origin: 100% 0%;
+}
+
+/*FIRST-FOOTER======================
+============================*/
+
+.first__footer {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__nav-box{
+    padding-left: 52px;
+    width: 50%;
+}
+
+.first__nav_item {
+    margin-right: 12.03px;
+}
+
+.first__nav_item:last-child {
+    margin-right: 0;
+}
+
+.scrooll-box {
+    width: 50%;
+}
+
+@media (max-width: 1100px) {
+    .first__title {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .first__title {
+        font-size: 30px;
+    }
+
+    .first__description {
+        font-size: 9px;
+    }
+
+    .first__button {
+        font-size: 9px;
+    }
+
+    .first__link {
+        font-size: 9px;
+    }
+
+    .first__img {
+        width: 499px;
+        height: 512px;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .first {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .header__lang {
+        display: none;
+    }
+
+    .header {
+        height: 70px;
+        background: #FFF;
+        margin: 0;
+    }
+
+    .header__wrap {
+        width: 100px;
+    }
+
+    .header__title {
+        color: #000;
+        font-size: 30px;
+    }
+
+    .header__burger {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header__burger_item {
+        width: 26.4px;
+        height: 2.61px;
+    }
+
+    .header__burger_item:after {
+        top: 7px;
+        width: 26.4px;
+        height: 2.61px;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        background:
+                url(img/girl-mobile.png) center no-repeat;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .content-wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .first__img, .first__description, .first__button, .first__link {
+        display: none;
+    }
+
+    .first__title {
+        font-size: 40px;
+        line-height: 51px;
+        margin: 0 0 29px 0;
+        padding: 0 0 0 27px;
+    }
+
+    .first__title_link {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .first__footer {
+        display: none;
+    }
+
+}
