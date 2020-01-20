@@ -616,25 +616,25 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .second__content-wrap {
-        width: 420px;
-        height: 350px;
+        width: 470px;
+        height: 400px;
         padding: 58px 48px 45px 51px;
     }
 
     .second__title {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 20px;
     }
 
     .second__subtitle {
-        font-size: 10px;
+        font-size: 13px;
         line-height: 10px;
         letter-spacing: 0.07em;
         margin-bottom: 15px;
     }
 
     .second__description {
-        font-size: 9px;
+        font-size: 12px;
         line-height: 13px;
         margin-bottom: 12px;
     }
@@ -656,7 +656,7 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .price {
-        font-size: 20px;
+        font-size: 30px;
         line-height: 28px;
     }
 
@@ -689,9 +689,25 @@ h1, h2, h3, h4, h5, h6, p {
 @media (max-width: 550px) {
 
     .second__content-wrap {
-        width: 320px;
-        height: 281px;
+        width: 340px;
+        height: 300px;
         padding: 15px 28px 25px 31px;
+    }
+
+    .second__title {
+        font-size: 20px;
+    }
+
+    .second__subtitle {
+        font-size: 10px;
+    }
+
+    .second__description {
+        font-size: 9px;
+    }
+
+    .price {
+        font-size: 20px;
     }
 
     .pinkbag {
@@ -699,6 +715,13 @@ h1, h2, h3, h4, h5, h6, p {
         max-height: 626px;
         bottom: 30px;
     }
+}
+    @media (max-width: 360px) {
+
+        .second__content-wrap {
+            width: 320px;
+            height: 281px;
+        }
 }
 
 /*THIRD======================
@@ -842,33 +865,11 @@ h1, h2, h3, h4, h5, h6, p {
 
     .third__wrap {
         height: 100%;
-        width: 350px;
-    }
-
-    .third__content-wrap {
-        width: 350px;
-        height: 295px;
-        padding: 50px 21px 28px 24px;
-        margin-bottom: 37px;
+        width: 475px;
     }
 
     .third__title {
         font-size: 30px;
-        line-height: 20px;
-        margin-bottom: 10px;
-    }
-
-    .third__subtitle {
-        font-size: 12px;
-        line-height: 10px;
-        letter-spacing: 0.07em;
-        margin-bottom: 10px;
-    }
-
-    .third__description {
-        font-size: 11px;
-        line-height: 13px;
-        margin-bottom: 30px;
     }
 
     .arrow_third {
@@ -891,27 +892,34 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .third__wrap {
-        width: 250px;
+        width: 270px;
     }
 
     .third__content-wrap {
-        width: 250px;
-        height: 195px;
+        width: 270px;
+        height: 215px;
         padding: 22px 21px 28px 24px;
     }
 
     .third__title {
         font-size: 20px;
+        line-height: 20px;
         margin: 0;
     }
 
     .third__subtitle {
         font-size: 10px;
+        line-height: 10px;
         margin-bottom: 10px;
     }
 
     .third__description {
         font-size: 9px;
+        line-height: 13px;
         margin-bottom: 30px;
+    }
+
+    .third__link_etc {
+        padding-left: 120px;
     }
 }
