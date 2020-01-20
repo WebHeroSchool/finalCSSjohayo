@@ -612,6 +612,7 @@ h1, h2, h3, h4, h5, h6, p {
 
     .second__wrap {
         width: 100%;
+        height: 50%;
     }
 
     .second__content-wrap {
@@ -669,16 +670,18 @@ h1, h2, h3, h4, h5, h6, p {
 
     .second__img-wrap {
         width: 100%;
-        height: 100%;
+        height: 50%;
         margin: 0;
         justify-content: center;
     }
 
     .pinkbag {
         width: 100%;
-        max-width: 324px;
-        max-height: 426px;
-        position: unset;
+        max-width: 524px;
+        max-height: 726px;
+        position: relative;
+        bottom: 55px;
+        left: auto;
     }
 }
 
@@ -692,8 +695,9 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .pinkbag {
-        max-width: 224px;
-        max-height: 326px;
+        max-width: 324px;
+        max-height: 626px;
+        bottom: 30px;
     }
 }
 
@@ -829,8 +833,8 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .third__img-wrap {
-        max-width: 471px;
-        max-height: 587px;
+        max-width: 571px;
+        max-height: 387px;
         position: relative;
         top: 44px;
         left: auto;
@@ -882,8 +886,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 @media (max-width: 550px) {
     .third__img-wrap {
-        max-width: 271px;
-        max-height: 387px;
+        max-width: 471px;
+        max-height: 587px;
     }
 
     .third__wrap {
