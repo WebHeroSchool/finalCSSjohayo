@@ -923,16 +923,20 @@ h1, h2, h3, h4, h5, h6, p {
         margin-bottom: 35px;
     }
 
+    .third__link_etc {
+        padding-left: 140px;
+    }
+
 }
 
 @media (max-width: 400px) {
 
     .third__wrap {
-        width: 270px;
+        width: 320px;
     }
 
     .third__content-wrap {
-        width: 270px;
+        width: 320px;
         height: 215px;
     }
 
@@ -951,7 +955,18 @@ h1, h2, h3, h4, h5, h6, p {
         margin-bottom: 30px;
     }
 
-    .third__link_etc {
-        padding-left: 120px;
+    .arrow {
+        left: 0;
+    }
+}
+
+@media (max-width: 340px) {
+
+    .third__wrap {
+        width: 270px;
+    }
+
+    .third__content-wrap {
+        width: 270px;
     }
 }
