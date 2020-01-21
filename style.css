@@ -868,6 +868,10 @@ h1, h2, h3, h4, h5, h6, p {
         width: 475px;
     }
 
+    .third__content-wrap {
+        height: 300px;
+    }
+
     .third__title {
         font-size: 30px;
     }
@@ -892,30 +896,58 @@ h1, h2, h3, h4, h5, h6, p {
     }
 
     .third__wrap {
+        width: 375px;
+    }
+
+    .third__content-wrap {
+        width: 375px;
+        height: 251px;
+        padding: 22px 21px 28px 24px;
+    }
+
+    .third__title {
+        font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .third__subtitle {
+        font-size: 14px;
+        line-height: 10px;
+        margin-bottom: 30px;
+    }
+
+    .third__description {
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .third__wrap {
         width: 270px;
     }
 
     .third__content-wrap {
         width: 270px;
         height: 215px;
-        padding: 22px 21px 28px 24px;
     }
 
     .third__title {
         font-size: 20px;
-        line-height: 20px;
         margin: 0;
     }
 
     .third__subtitle {
         font-size: 10px;
-        line-height: 10px;
         margin-bottom: 10px;
     }
 
     .third__description {
         font-size: 9px;
-        line-height: 13px;
         margin-bottom: 30px;
     }
 
